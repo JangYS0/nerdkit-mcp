@@ -1,0 +1,33 @@
+{
+  "name": "nerdkit-mcp",
+  "version": "1.0.0",
+  "description": "Zero-dependency local MCP server for scrubbing HAR 1.2 secrets, analyzing PostgreSQL EXPLAIN JSON hotspots, sizing local LLM GPU VRAM, and linting mcp.json configs.",
+  "type": "module",
+  "bin": {
+    "nerdkit-mcp": "./server.mjs"
+  },
+  "scripts": {
+    "start": "node ./server.mjs",
+    "test": "node --test ./test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-desktop",
+    "cursor",
+    "har",
+    "postgresql",
+    "llm",
+    "developer-tools"
+  ],
+  "author": "Yoonseok Jang",
+  "license": "MIT",
+  "homepage": "https://global-utils.com/en/mcp-inspector",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JangYS0/nerdkit-mcp.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
