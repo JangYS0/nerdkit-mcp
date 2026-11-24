@@ -1,5 +1,7 @@
 # nerdkit-mcp
 
+[![JangYS0/nerdkit-mcp MCP server](https://glama.ai/mcp/servers/JangYS0/nerdkit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/JangYS0/nerdkit-mcp)
+
 Zero-dependency local **Model Context Protocol (MCP)** server (`stdio`, Node.js >= 18) providing four diagnostic and security utilities that run completely offline on local inputs:
 
 1. **`redact_har_secrets`** — Scrubs `Cookie`, `Set-Cookie`, `Authorization`, `X-API-Key`, `X-Auth-Token`, `X-CSRF-Token`, URL query tokens, embedded JWTs, and nested JSON secrets inside `postData.text` and `response.content.text` from Chrome `.har` captures while keeping latency `timings` and byte counts intact.
